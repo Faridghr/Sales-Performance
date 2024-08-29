@@ -14,26 +14,26 @@ This user story outlines the specifications for building two dashboards using Ta
 #### KPI Overview:
 - Display a summary of total sales, profits, and quantity for the current year and the previous year.
 
-**Chosen Chart:** I used BANs for each of the total sales, profit, and quantity for the current year, comparing them with the previous year, with percentage differences.
+**Chosen Chart:** BANs (Big Ass Numbers) for each of the KPIs (total sales, profit, and quantity), with a percentage difference between the current and previous year.
 
 #### Sales Trends:
 - Present the data for each KPI on a monthly basis for both the current year and the previous year.
 - Identify the months with the highest and lowest sales and make them easy to recognize.
 
-**Chosen Chart:** I chose the Sparkline to compare the trends on a monthly basis, marking the highest and lowest sales.
+**Chosen Chart:** Sparklines to compare monthly trends, with markers for the highest and lowest sales.
 
 #### Product Subcategory Comparison:
 - Compare sales performance by different product subcategories for the current year and the previous year.
 - Include a comparison of sales with profit.
 
-**Chosen Chart:** To fulfill this requirement, I used Bar-in-Bar charts to compare sales performance by different product subcategories.
+**Chosen Chart:** Bar-in-Bar charts to compare sales performance across product subcategories.
 
 #### Weekly Trends for Sales & Profit:
 - Present weekly sales and profit data for the current year.
 - Display the average weekly values.
 - Highlight weeks that are above and below the average to draw attention to sales and profit performance.
 
-**Chosen Chart:** A line graph is the best fit to present weekly trends. Additionally, a supporting line can be added to display the average, making it easier to spot weeks above or below the line, with the help of some color.
+**Chosen Chart:** Line graphs with a supporting average line to easily identify weeks above or below average, using color differentiation.
 
 ## Customer Dashboard | Requirements
 ### Dashboard Purpose
@@ -47,18 +47,18 @@ The customer dashboard aims to provide an overview of customer data, trends, and
 - Present the data for each KPI on a monthly basis for both the current year and the previous year.
 - Identify the months with the highest and lowest sales and make them easy to recognize.
 
-**Chosen Chart:** I chose the BANs with Sparkline, similar to the sales dashboard, to fulfill this requirement.
+**Chosen Chart:** BANs with Sparklines, similar to the sales dashboard, to track trends.
 
 #### Customer Distribution by Number of Orders:
 - Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty, and engagement.
 
-**Chosen Chart:** A histogram is the best match to clearly show the distribution of customers based on the number of orders.
+**Chosen Chart:** Histograms to clearly show the distribution of customers based on order count.
 
 #### Top 10 Customers by Profit:
 - Present the top 10 customers who have generated the highest profits for the company.
 - Show additional information like rank, number of orders, current sales, current profit, and the last order date.
 
-**Chosen Chart:** A table listing the top 10 customers with additional fields is the best match for this requirement.
+**Chosen Chart:** A detailed table listing the top 10 customers with supplementary fields.
 
 ## Design & Interactivity Requirements
 ### Dashboard Dynamic
@@ -79,7 +79,7 @@ The dataset used in this analysis includes a wide range of attributes such as or
 - Customer Data: Customer Name
 
 ## Parameters
-- **Select Year:** I created a "Select Year" parameter to make our dashboard dynamic and change the value of some calculated fields based on the selected year, such as "CY Sales, PY Sales".
+- **Select Year:** A "Select Year" parameter allows the dashboard to be dynamic, adjusting calculated fields based on the selected year (e.g., "CY Sales, PY Sales").
 
 ## Calculated Fields
 ### Sales Dashboard
