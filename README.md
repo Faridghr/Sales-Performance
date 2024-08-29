@@ -78,6 +78,8 @@ The dataset used in this analysis includes a wide range of attributes such as or
 - Product Data: Category, Sub-Category
 - Customer Data: Customer Name
 
+![Data Model](png/DataModel.JPG)
+
 ## Parameters
 - **Select Year:** A "Select Year" parameter allows the dashboard to be dynamic, adjusting calculated fields based on the selected year (e.g., "CY Sales, PY Sales").
 
@@ -130,3 +132,8 @@ The dataset used in this analysis includes a wide range of attributes such as or
 4. **Customer Distribution:**
    - **Nr. of Orders per Customer:** Uses LOD Expressions to calculate the number of CY orders for each CY customer.
 
+## Screen Shots
+
+![Sales Dashboard](png/SalesDashboard.JPG)
+
+![Customer Dashboard](png/CustomerDashboard.JPG)
